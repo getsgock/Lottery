@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prize_bg"
+    tools:context="com.example.nthforever.lottery.MainActivity">
+
+    <com.example.nthforever.lottery.Lottery
+        android:id="@+id/lottery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:id="@+id/start0"
+        android:text="s0"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:layout_toRightOf="@+id/start0"
+        android:id="@+id/start1"
+        android:text="s1"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/start2"
+        android:text="s2"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/start3"
+        android:layout_alignBottom="@+id/start3"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/start1" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:id="@+id/start3"
+        android:text="s3"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_toRightOf="@+id/start2"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:id="@+id/start4"
+        android:text="s4"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_toRightOf="@+id/start3"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:id="@+id/start5"
+        android:text="s5"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/start4"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:id="@+id/start6"
+        android:text="s6"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/start5"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/lottery"
+        android:id="@+id/start7"
+        android:text="s7"
+        android:textSize="12sp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/start6"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/start0"
+        android:layout_marginTop="10dp"
+        android:id="@+id/reset"
+        android:text="reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
